@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+article {
+    flex: 2;
+    overflow-y: auto;
+}
+
+aside {
+    flex: 1;
+    overflow-y: auto;
+}
+
+header li.logo img {
+    max-width: 150px;
+}
+
+.red-gradient-text {
+    background: linear-gradient(to right, #ff0000, #3e0303);
+    /* Red gradient */
+    -webkit-background-clip: text;
+    /* Apply the gradient only to the text */
+    color: transparent;
+    /* Hide the original text color */
+}
+
+.beautiful-text {
+    font-size: 36px;
+    font-weight: bold;
+    color: #d62b2b;
+    /* Pink color */
+    text-align: center;
+    animation: fadeInOut 4s ease-in-out infinite;
+    /* Apply the animation */
+}
+
+/* Define the fadeInOut animation */
+@keyframes fadeInOut {
+
+    0%,
+    100% {
+        opacity: 0;
+        /* Fully transparent at the beginning and end */
+    }
+
+    50% {
+        opacity: 1;
+        /* Fully visible in the middle */
+    }
+}
