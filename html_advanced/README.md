@@ -1,4 +1,4 @@
-# HTML, advanced
+# HTML, Advanced
 The assignment for this module involves creating a website as a school project. Our task is to develop the initial HTML code for a landing page, showcasing an Edtech startup that sells online tutorials.
 
 ## General Objectives
