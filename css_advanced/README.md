@@ -1,16 +1,14 @@
-# HTML, Advanced
+# CSS, Advanced
 The assignment for this module involves creating a website as a school project. Our task is to develop the initial HTML code for a landing page, showcasing an Edtech startup that sells online tutorials.
 
-In this folder, we are just to come up with an HTML structue for the project and the styling will be done in the css_advanced folder
-
 ## General Objectives
-- What is HTML
-- How to create an HTML page from a wireframe
-- What is a markup language
-- What is the DOM
-- What is an element / tag
-- What is an attribute
-- What the purpose of each HTML tag
+- What is CSS
+- How to add style to an element
+- What is a class
+- What is a selector
+- How to compute CSS Specificity Value
+- What are Box properties in CSS
+- How does the browser load a webpage
 
 ## Requirements
 - All your files should end with a new line
